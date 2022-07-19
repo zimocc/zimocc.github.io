@@ -1,6 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background: url("../images/back.png") no-repeat ;
+    background-size: 100%;
+    cursor: url(https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/cursor.ico),auto;
+}
 h1 {
     margin: auto;
-    font-size: 88px;
+    font-size: 20px;
     text-align: center;
     color: fuchsia;
+}
+
+.describe{
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: red;
 }
