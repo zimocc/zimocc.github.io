@@ -11,16 +11,29 @@ body{
     cursor: url(https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/cursor.ico),auto;
 }
 h1 {
-    margin: auto;
+    margin:0 auto;
     font-size: 20px;
     text-align: center;
     color: fuchsia;
 }
 
 .describe{
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
     font-size: 18px;
     color: red;
 }
 
+.pyg {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pyg a{
+    text-decoration: none;
+    color: white;
+}
+
+.pyg a:hover{
+    color: red;
+}
