@@ -1,0 +1,207 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+    url('../fonts/icomoon.woff?tomleg') format('woff'),
+    url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.color-red {
+    color: #af1919;
+}
+
+.shortcut-right li {
+    float: left;
+}
+
+/*shortcut start*/
+.shortcut {
+    background-color: #efefef;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.shortcut-right a {
+    margin: 0 15px;
+}
+
+.shortcut-right ul li:nth-child(n+5) a::after {
+    content: "\e91e";
+    font-family: "icomoon";
+}
+
+.shortcut-right ul li:nth-child(2) a::after {
+    content: "\e91e";
+    font-family: "icomoon";
+}
+
+/*shortcut end*/
+
+/*header start*/
+
+.header {
+    position: relative;
+    height: 82px;
+}
+
+.header > * {
+    position: absolute;
+    top: 27px;
+}
+
+.header .logo a {
+    display: block;
+    width: 220px;
+    height: 55px;
+    background: url("../images/logo.png") no-repeat;
+}
+
+.header .search {
+    left: 350px;
+}
+
+.header .search input {
+    float: left;
+    width: 455px;
+    height: 35px;
+    padding-left: 10px;
+    border: solid 2px #af1919;
+}
+
+.header .search button {
+    float: left;
+    width: 83px;
+    height: 35px;
+    background-color: #af1919;
+    border: solid 2px #af1919;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.header .hotwords {
+    left: 350px;
+    top: 70px;
+}
+
+.header .hotwords li {
+    float: left;
+    padding: 0 12px;
+}
+
+
+.header .shopcar {
+    right: 65px;
+    width: 140px;
+    height: 35px;
+    border: solid 1px #dfdfdf;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.header .shopcar a {
+    display: block;
+
+}
+
+.header .shopcar span:first-of-type {
+    padding-right: 5px;
+    font-family: "icomoon";
+    color: #af1919;
+    vertical-align: bottom;
+}
+
+.header .shopcar span:nth-of-type(2)::after {
+    content: "\e920";
+    font-family: "icomoon";
+}
+
+.header .shopcar span:last-child {
+    position: absolute;
+    left: 105px;
+    top: -7px;
+    display: inline-block;
+    padding: 0 5px;
+    line-height: 15px;
+    background-color: #e40312;
+    text-align: center;
+    color: white;
+    border-radius: 7px 7px 7px 0;
+}
+/*header end*/
+.nav {
+    height: 71px;
+    border-bottom: solid 2px #b01919;
+
+}
+
+.nav .dropdown .dt {
+    margin-top: 24px;
+    height: 45px;
+    width: 210px;
+    background-color: #c71622;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.nav a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+
+}
+
+
+.nav .dropdown .dd {
+    margin-top: 2px;
+    height: 465px;
+    width: 210px;
+    background-color: #c71622;
+    font-size: 14px;
+}
+
+.nav .dropdown .dd li{
+    height: 31px;
+    line-height: 31px;
+}
+.nav .dropdown .dd li a{
+    margin-left: 2px;
+    padding-left: 10px;
+    transition: all 0.3s;
+}
+.nav .dropdown .dd li a::after{
+    font-family: "icomoon";
+    content: "\e920";
+    float: right;
+    padding-right: 10px;
+}
+
+.nav .dropdown .dd li a:hover{
+    padding-left: 15px;
+    background-color: white;
+    color: #af1919;
+}
+
+.nav .dropdown .dd li a:hover::after{
+    content: "\ea42";
+}
