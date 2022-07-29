@@ -146,7 +146,10 @@
     color: white;
     border-radius: 7px 7px 7px 0;
 }
+
 /*header end*/
+
+/*nav start*/
 .nav {
     height: 71px;
     border-bottom: solid 2px #b01919;
@@ -163,12 +166,11 @@
     line-height: 45px;
 }
 
-.nav a {
+.nav .dropdown a {
     display: block;
     width: 100%;
     height: 100%;
     color: white;
-
 }
 
 
@@ -180,28 +182,50 @@
     font-size: 14px;
 }
 
-.nav .dropdown .dd li{
+.nav .dropdown .dd li {
     height: 31px;
     line-height: 31px;
 }
-.nav .dropdown .dd li a{
+
+.nav .dropdown .dd li a {
     margin-left: 2px;
     padding-left: 10px;
     transition: all 0.3s;
 }
-.nav .dropdown .dd li a::after{
+
+.nav .dropdown .dd li a::after {
     font-family: "icomoon";
     content: "\e920";
     float: right;
     padding-right: 10px;
 }
 
-.nav .dropdown .dd li a:hover{
+.nav .dropdown .dd li a:hover {
     padding-left: 15px;
     background-color: white;
     color: #af1919;
 }
 
-.nav .dropdown .dd li a:hover::after{
+.nav .dropdown .dd li a:hover::after {
     content: "\ea42";
 }
+
+.nav .navitems {
+
+    margin-top: 24px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.nav .navitems li {
+    float: left;
+    margin: 0 25px;
+}
+
+.nav .navitems li:first-child {
+    margin-left: 40px;
+}
+
+
+/*nav end*/
