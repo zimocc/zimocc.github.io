@@ -257,7 +257,7 @@
 }
 
 .recommend li {
-    position:relative;
+    position: relative;
     float: left;
 }
 
@@ -274,25 +274,96 @@
 
 .recommend li a {
     display: inline-block;
-    height:163px ;
+    height: 163px;
     width: 247px;
-    background:url("../upload/recommend-01.png") no-repeat;
+    background: url("../upload/recommend-01.png") no-repeat;
     background-size: 100% 100%;
 }
 
 
 .recommend li:nth-child(2) a {
-    background:url("../upload/recommend-02.png") no-repeat;
+    background: url("../upload/recommend-02.png") no-repeat;
     background-size: 100% 100%;
 }
 
 .recommend li:nth-child(3) a {
-    background:url("../upload/recommend-03_03.png") no-repeat;
+    background: url("../upload/recommend-03_03.png") no-repeat;
     background-size: 100% 100%;
 }
 
 .recommend li:nth-child(4) a {
-    background:url("../upload/recom_03.jpg") no-repeat;
+    background: url("../upload/recom_03.jpg") no-repeat;
 
 }
+
 /*recommend end*/
+
+/*guess start*/
+.guess {
+    margin-top: 20px;
+    height: 295px;
+}
+
+.guess-hd {
+    height: 30px;
+}
+
+.guess-hd h3{
+    float: left;
+    font-size: 18px;
+    line-height: 30px;
+}
+.guess-hd a{
+    float: right;
+    line-height: 30px;
+}
+
+.guess .guess-hd a::after {
+    content: "\ea2e";
+    margin-left: 10px;
+    font-family: icomoon;
+}
+
+.guess-bd {
+    height: 235px;
+    border:solid 1px #ededed;
+    text-align: center;
+}
+
+.guess-bd li{
+    position: relative;
+    float: left;
+    width: 199px;
+    height: 235px;
+    padding-top: 20px;
+}
+
+.guess-bd li a i{
+    display: inline-block;
+    width: 160px;
+    height: 141px;
+}
+
+.guess-bd li a strong{
+    color: red;
+    font-size: 18px;
+}
+
+.guess-bd li:nth-child(-n+5)::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 65px;
+    bottom: 10px;
+    right: 0;
+    background: #ddd;
+}
+
+.guess-bd li:nth-child(4) i{
+    margin-top: 40px
+}
+
+.guess-bd li:nth-child(4) i{
+    height: 101px;
+}
+/*guess end*/
