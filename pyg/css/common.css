@@ -112,6 +112,7 @@
     width: 140px;
     height: 35px;
     border: solid 1px #dfdfdf;
+    background-color: #f7f7f7;
     line-height: 35px;
     text-align: center;
     font-size: 12px;
@@ -160,7 +161,7 @@
     margin-top: 24px;
     height: 45px;
     width: 210px;
-    background-color: #c71622;
+    background-color: #a82621;
     font-size: 16px;
     text-align: center;
     line-height: 45px;
@@ -227,5 +228,121 @@
     margin-left: 40px;
 }
 
-
 /*nav end*/
+/*footer start*/
+.footer {
+    height: 415px;
+    background-color: #f4f4f4;
+}
+
+
+.mod-service {
+    margin: 0 40px;
+    height: 110px;
+    padding-top: 32px;
+    border-bottom: solid 1px #ececec;
+}
+
+.mod-service li {
+    float: left;
+    width: 240px;
+    height: 54px;
+    font-size: 14px;
+}
+
+.mod-service li h3 {
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+.mod-service li p {
+    margin-left: 65px;
+}
+
+.mod-service li:last-child {
+    width: 150px;
+}
+
+.mod-service li::before {
+    content: "";
+    float: left;
+    display: block;
+    height: 54px;
+    width: 57px;
+    background: url("../images/icons.png") no-repeat -250px 0;
+}
+
+.mod-service li:nth-child(2)::before {
+    background: url("../images/icons.png") no-repeat -250px -52px;
+}
+
+.mod-service li:nth-child(3)::before {
+    background: url("../images/icons.png") no-repeat -250px -103px;
+}
+
+.mod-service li:nth-child(4)::before {
+    background: url("../images/icons.png") no-repeat -250px -155px;
+}
+
+.mod-service li:nth-child(5)::before {
+    background: url("../images/icons.png") no-repeat -250px -207px;
+}
+
+.mod-help {
+    height: 190px;
+    padding-left: 50px;
+    padding-top: 22px;
+    border-bottom: solid 1px #ececec;
+}
+
+.mod-help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod-help dl dt{
+    margin-bottom: 5px;
+}
+.mod-help dl dd{
+    line-height: 20px;
+}
+.mod-help dl:last-child {
+    width: 96px;
+    text-align: center;
+}
+
+.mod-help dl:last-child dd:nth-child(2){
+    height: 96px;
+    width: 96px;
+    background: url("../images/紫陌qrcode.png") no-repeat;
+    background-size: 100%;
+}
+
+
+.mod-copyright{
+    margin-left: 115px;
+    text-align: center;
+}
+
+.mod-copyright .about {
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.mod-copyright .about li{
+    float: left;
+    height: 13px;
+    line-height: 13px;
+}
+
+.mod-copyright .about li::after{
+    content: "|";
+    color: #cecccc;
+    margin: 0 15px;
+}
+
+.mod-copyright .about li:last-child::after{
+    content: "";
+}
+
+/*footer end*/

@@ -1,0 +1,298 @@
+/*main start*/
+
+.main {
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+
+}
+
+.focus {
+    float: left;
+    height: 100%;
+    width: 720px;
+    background: url("../upload/focus1.png") no-repeat;
+}
+
+.newsflash {
+    float: left;
+    width: 250px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.news {
+    height: 165px;
+    border: solid 1px #e3e3e3;
+}
+
+.news .dt {
+    height: 35px;
+    border-bottom: dotted 1px #e3e3e3;
+
+}
+
+.news .dt h3 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 17px;
+    font-size: 14px;
+}
+
+.news .dt a {
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.news .dt a::after {
+    content: "\e920";
+    font-family: "icomoon";
+}
+
+.news .dd {
+    margin-top: 10px;
+}
+
+.news .dd li {
+    height: 23px;
+    padding-left: 18px;
+    padding-right: 10px;
+    line-height: 23px;
+    overflow: hidden;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 210px;
+    overflow: hidden;
+    border-left: solid 1px #e3e3e3;
+    border-right: solid 1px #e3e3e3;
+}
+
+.lifeservice .jian {
+
+}
+
+.lifeservice ul {
+    width: 256px;
+}
+
+.lifeservice a {
+    float: left;
+    height: 70px;
+    width: 64px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.lifeservice li:nth-child(2) a {
+    position: relative;
+}
+
+
+.lifeservice li:nth-child(2) a .mark {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+}
+
+.lifeservice li:nth-child(2) a .mark .triangle {
+    position: absolute;
+    z-index: 0;
+    border-style: solid;
+    border-color: green green transparent green;
+    border-width: 12px 6px 3px 6px;
+}
+
+.lifeservice li:nth-child(2) a .mark .word {
+    position: absolute;
+    z-index: 1;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+}
+
+.lifeservice li {
+    text-align: center;
+}
+
+.lifeservice li:first-child span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -18px -16px;
+}
+
+.lifeservice li:first-child span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -18px -16px;
+}
+
+.lifeservice li:nth-child(2) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -79px -17px;
+}
+
+.lifeservice li:nth-child(3) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -140px -16px;
+}
+
+.lifeservice li:nth-child(4) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -205px -16px;
+}
+
+.lifeservice li:nth-child(5) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -18px -88px;
+}
+
+.lifeservice li:nth-child(6) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -79px -88px;
+}
+
+.lifeservice li:nth-child(7) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -140px -88px;
+}
+
+.lifeservice li:nth-child(8) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -208px -88px;
+}
+
+.lifeservice li:nth-child(9) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -18px -158px;
+}
+
+.lifeservice li:nth-child(10) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -79px -158px;
+}
+
+.lifeservice li:nth-child(11) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -140px -158px;
+}
+
+.lifeservice li:nth-child(12) span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -205px -158px;
+}
+
+.bargain a {
+    display: block;
+    height: 75px;
+    margin-top: 5px;
+    background: url("../upload/bargain.png") no-repeat;
+}
+
+/*main end*/
+
+/*recommend start*/
+.recommend {
+    height: 163px;
+    margin-top: 12px;
+}
+
+.recommend .dt {
+    float: left;
+    height: 100%;
+    width: 208px;
+    background: #5b5150 url("../images/recom.png") no-repeat center;
+}
+
+.recommend .dd {
+    float: left;
+}
+
+.recommend li {
+    position:relative;
+    float: left;
+}
+
+.recommend li:nth-child(-n+3)::after {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    content: "";
+    height: 145px;
+    width: 1px;
+    background-color: #ddd;
+
+}
+
+.recommend li a {
+    display: inline-block;
+    height:163px ;
+    width: 247px;
+    background:url("../upload/recommend-01.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.recommend li:nth-child(2) a {
+    background:url("../upload/recommend-02.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.recommend li:nth-child(3) a {
+    background:url("../upload/recommend-03_03.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.recommend li:nth-child(4) a {
+    background:url("../upload/recom_03.jpg") no-repeat;
+
+}
+/*recommend end*/
