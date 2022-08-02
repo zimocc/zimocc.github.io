@@ -74,9 +74,6 @@
     border-right: solid 1px #e3e3e3;
 }
 
-.lifeservice .jian {
-
-}
 
 .lifeservice ul {
     width: 256px;
@@ -367,3 +364,81 @@
     height: 101px;
 }
 /*guess end*/
+
+/* funny start */
+
+.funny{
+    height: 435px;
+}
+
+.funny-hd h3{
+    font-size: 18px;
+}
+
+.funny-bd{
+    height: 410px;
+    background: pink;
+}
+
+.funny-bd .book{
+    float: left;
+    position: relative;
+    width: 405px;
+    height: 100%;
+    background: #b8bddd;
+
+}
+
+.funny-bd .book a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.funny-bd .book img{
+    position: absolute;
+    bottom: 30px;
+    right: 55px;
+}
+
+.funny-bd .book a div{
+    position: absolute;
+    left: 20px;
+    top: 24px;
+}
+
+.funny-bd .book p{
+    color: #3b468d;
+ }
+
+.funny-bd .book p:first-child{
+   font-size: 18px;
+}
+
+.funny-bd .book p:nth-child(2){
+    font-size: 16px;
+ }
+
+.funny-bd .goodstuff{
+    float: left;
+    width: 225px;
+    height: 100%;
+    background: blue;
+}
+
+.funny-bd .street{
+    float: left;
+    width: 405px;
+    height: 100%;
+    background: red;
+}
+
+.funny-bd .brand{
+    float: left;
+    width: 165px;
+    height: 100%;
+    background: green   ;
+}
+
+/* funny end */
