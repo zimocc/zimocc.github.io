@@ -305,12 +305,13 @@
     height: 30px;
 }
 
-.guess-hd h3{
+.guess-hd h3 {
     float: left;
     font-size: 18px;
     line-height: 30px;
 }
-.guess-hd a{
+
+.guess-hd a {
     float: right;
     line-height: 30px;
 }
@@ -323,11 +324,11 @@
 
 .guess-bd {
     height: 235px;
-    border:solid 1px #ededed;
+    border: solid 1px #ededed;
     text-align: center;
 }
 
-.guess-bd li{
+.guess-bd li {
     position: relative;
     float: left;
     width: 199px;
@@ -335,18 +336,18 @@
     padding-top: 20px;
 }
 
-.guess-bd li a i{
+.guess-bd li a i {
     display: inline-block;
     width: 160px;
     height: 141px;
 }
 
-.guess-bd li a strong{
+.guess-bd li a strong {
     color: red;
     font-size: 18px;
 }
 
-.guess-bd li:nth-child(-n+5)::after{
+.guess-bd li:nth-child(-n+5)::after {
     content: "";
     position: absolute;
     width: 1px;
@@ -356,31 +357,33 @@
     background: #ddd;
 }
 
-.guess-bd li:nth-child(4) i{
+.guess-bd li:nth-child(4) i {
     margin-top: 40px
 }
 
-.guess-bd li:nth-child(4) i{
+.guess-bd li:nth-child(4) i {
     height: 101px;
 }
+
 /*guess end*/
 
 /* funny start */
 
-.funny{
+.funny {
     height: 435px;
 }
 
-.funny-hd h3{
+.funny-hd h3 {
     font-size: 18px;
 }
 
-.funny-bd{
+.funny-bd {
     height: 410px;
-    background: pink;
+    border: solid 1px #ededed;
+    overflow: hidden;
 }
 
-.funny-bd .book{
+.funny-bd .book {
     float: left;
     position: relative;
     width: 405px;
@@ -396,49 +399,251 @@
 }
 
 
-.funny-bd .book img{
+.funny-bd .book img {
     position: absolute;
     bottom: 30px;
     right: 55px;
 }
 
-.funny-bd .book a div{
+.funny-bd .book a div {
     position: absolute;
     left: 20px;
     top: 24px;
 }
 
-.funny-bd .book p{
+.funny-bd .book p {
     color: #3b468d;
- }
-
-.funny-bd .book p:first-child{
-   font-size: 18px;
 }
 
-.funny-bd .book p:nth-child(2){
-    font-size: 16px;
- }
+.funny-bd .book p:first-child {
+    font-size: 18px;
+}
 
-.funny-bd .goodstuff{
+.funny-bd .book p:nth-child(2) {
+    font-size: 16px;
+}
+
+.funny-bd .goodstuff {
     float: left;
     width: 225px;
     height: 100%;
-    background: blue;
 }
 
-.funny-bd .street{
+
+.goodstuff dt {
+    width: 195px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 20px;
+    text-align: center;
+    border-bottom: dotted 1px #e3e3e3;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.goodstuff dd:nth-child(2) a {
+    position: relative;
+    display: inline-block;
+    height: 210px;
+    width: 225px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.goodstuff dd:nth-child(2) img {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.goodstuff dd:nth-child(2) .word {
+    position: absolute;
+    top: 67px;
+    left: 7px;
+}
+
+.goodstuff dd:nth-child(2) .word p:first-child {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.goodstuff dd:nth-child(2) .word p:nth-child(2) {
+    font-size: 12px;
+}
+
+.goodstuff dd:nth-child(2) .word p:nth-child(3) {
+    font-size: 12px;
+    color: red;
+}
+
+.goodstuff dd:nth-child(3) a {
+    position: relative;
+    display: inline-block;
+    height: 158px;
+    width: 225px;
+}
+
+.goodstuff dd:nth-child(3) img {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.goodstuff dd:nth-child(3) .word {
+    position: absolute;
+    top: 67px;
+    left: 7px;
+}
+
+.goodstuff dd:nth-child(3) .word p:first-child {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.goodstuff dd:nth-child(3) .word p:nth-child(2) {
+    font-size: 12px;
+}
+
+.goodstuff dd:nth-child(3) .word p:nth-child(3) {
+    font-size: 12px;
+    color: red;
+}
+
+.funny-bd .street {
     float: left;
     width: 405px;
     height: 100%;
-    background: red;
+    background-color: #f7f7f7;
+    border-left: solid 1px #e3e3e3;
+
 }
 
-.funny-bd .brand{
+.street .title {
+    width: 365px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: dotted 1px #e3e3e3;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.street .suboer a{
+    display: block;
+    position: relative;
+    height: 210px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.street .suboer a .word{
+    position: absolute;
+    top: 73px;
+    left: 50px;
+}
+
+.street .suboer a .word p:first-child{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+
+}
+
+.street .suboer a .word p:nth-child(2){
+    font-size: 12px;
+
+}
+
+.street .suboer a .word p:last-child{
+    font-size: 12px;
+    color: red;
+}
+
+.street .suboer a img{
+    position: absolute;
+    top: 37px;
+    right: 0;
+}
+
+/**/
+.street .shoes a{
+    display: block;
+    position: relative;
+    height: 160px;
+    width: 203px;
+
+}
+
+.street .shoes a .word{
+    position: absolute;
+    top: 52px;
+    left: 15px;
+}
+
+.street .shoes a .word p:first-child{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+
+}
+
+.street .shoes a .word p:nth-child(2){
+    font-size: 12px;
+
+}
+
+.street .shoes a .word p:last-child{
+    font-size: 12px;
+    color: red;
+}
+
+.street .shoes a img{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+/**/
+.street .t a{
+    display: block;
+    position: relative;
+    height: 160px;
+    width: 201px;
+    border-left: solid 1px #e3e3e3;
+}
+
+.street .t a .word{
+    position: absolute;
+    top: 52px;
+    left: 15px;
+}
+
+.street .t a .word p:first-child{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+
+}
+
+.street .t a .word p:nth-child(2){
+    font-size: 12px;
+}
+
+.street .t a .word p:last-child{
+    font-size: 12px;
+    color: red;
+}
+
+.street .t a img{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.funny-bd .brand {
     float: left;
-    width: 165px;
+    width: 163px;
     height: 100%;
-    background: green   ;
+    background: url("../upload/图层 136.png") no-repeat;
 }
 
 /* funny end */
