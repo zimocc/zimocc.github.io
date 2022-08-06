@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .fu {
+            height: 50px;
+            background-color: pink;
+        }
+        .fu::after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        .zi1{
+            float: left;
+        }
+        .zi2{
+            float: left;
+        }
+        .sun1{
+
+            width: 30px;
+        }
+        .fu1{
+            height: 200px;
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+<div class="fu">
+    父亲
+    <div class="zi1">
+        儿子1
+        <div class="sun1">孙子1孙子1孙子1孙子1孙子1孙子1孙子1孙子1</div>
+        <div class="sun2">孙子2</div>
+        <div class="sun3">孙子3</div>
+        <div class="sun4">孙子4</div>
+    </div>
+    <div class="zi2">
+        儿子2
+    </div>
+</div>
+<div class="fu1">
+    ssssssssss
+</div>
+</body>
+</html>

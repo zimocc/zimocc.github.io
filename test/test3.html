@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .fu {
+            background: rgba(246, 169, 24, 0.2);
+            text-align: center;
+            height: 2000px;
+        }
+
+        .zi1 {
+            height: 200px;
+            width: 400px;
+            background: pink;
+        }
+
+        .zi2 {
+            height: 200px;
+            width: 400px;
+            background: blue;
+        }
+
+        .zi3 {
+            display: inline-block;
+            height: 200px;
+            width: 400px;
+            background: green;
+        }
+        .fu1{
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+        .triangle{
+            position: absolute;
+            border-style: solid;
+            border-color: green green transparent green;
+            border-width:12px 6px 3px 6px;
+        }
+        .word{
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 12px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="fu">
+    <div class="zi1">111111111</div>
+    <div class="zi2">11111111111</div>
+    <div class="zi3">111111111111111</div>
+</div>
+
+<div class="fu1">
+    <div class="triangle"></div>
+    <div class="word">减</div>
+</div>
+</body>
+</html>

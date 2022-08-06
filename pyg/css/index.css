@@ -1,3 +1,32 @@
+/*sidebar start*/
+
+.sidebar {
+    float: left;
+    position: sticky;
+    top: 0;
+    width: 67px;
+    margin-top: 250px;
+    margin-left: 30px;
+    border-top: solid 1px #ededed;
+}
+
+.sidebar li a {
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: solid 1px #ededed;
+}
+
+.sidebar li a:hover {
+    background-color: #c81623;
+    color: white;
+}
+
+/*sidebar end*/
+
+
 /*main start*/
 
 .main {
@@ -343,7 +372,7 @@
 }
 
 .guess-bd li a strong {
-    color: red;
+    color: #c81623;
     font-size: 18px;
 }
 
@@ -398,7 +427,6 @@
     height: 100%;
 }
 
-
 .funny-bd .book img {
     position: absolute;
     bottom: 30px;
@@ -429,7 +457,6 @@
     height: 100%;
 }
 
-
 .goodstuff dt {
     width: 195px;
     height: 40px;
@@ -440,7 +467,6 @@
     font-size: 14px;
     font-weight: bold;
 }
-
 
 .goodstuff dd:nth-child(2) a {
     position: relative;
@@ -473,7 +499,7 @@
 
 .goodstuff dd:nth-child(2) .word p:nth-child(3) {
     font-size: 12px;
-    color: red;
+    color: #c81623;
 }
 
 .goodstuff dd:nth-child(3) a {
@@ -506,7 +532,7 @@
 
 .goodstuff dd:nth-child(3) .word p:nth-child(3) {
     font-size: 12px;
-    color: red;
+    color: #c81623;
 }
 
 .funny-bd .street {
@@ -529,44 +555,43 @@
     font-weight: bold;
 }
 
-.street .suboer a{
+.street .suboer a {
     display: block;
     position: relative;
     height: 210px;
     border-bottom: solid 1px #e3e3e3;
 }
 
-.street .suboer a .word{
+.street .suboer a .word {
     position: absolute;
     top: 73px;
     left: 50px;
 }
 
-.street .suboer a .word p:first-child{
+.street .suboer a .word p:first-child {
     font-size: 16px;
     font-weight: bold;
     line-height: 40px;
 
 }
 
-.street .suboer a .word p:nth-child(2){
+.street .suboer a .word p:nth-child(2) {
     font-size: 12px;
 
 }
 
-.street .suboer a .word p:last-child{
+.street .suboer a .word p:last-child {
     font-size: 12px;
-    color: red;
+    color: #c81623;
 }
 
-.street .suboer a img{
+.street .suboer a img {
     position: absolute;
     top: 37px;
     right: 0;
 }
 
-/**/
-.street .shoes a{
+.street .shoes a {
     display: block;
     position: relative;
     height: 160px;
@@ -574,36 +599,36 @@
 
 }
 
-.street .shoes a .word{
+.street .shoes a .word {
     position: absolute;
     top: 52px;
     left: 15px;
 }
 
-.street .shoes a .word p:first-child{
+.street .shoes a .word p:first-child {
     font-size: 16px;
     font-weight: bold;
     line-height: 48px;
 
 }
 
-.street .shoes a .word p:nth-child(2){
+.street .shoes a .word p:nth-child(2) {
     font-size: 12px;
 
 }
 
-.street .shoes a .word p:last-child{
+.street .shoes a .word p:last-child {
     font-size: 12px;
-    color: red;
+    color: #c81623;
 }
 
-.street .shoes a img{
+.street .shoes a img {
     position: absolute;
     top: 30px;
     right: 0;
 }
-/**/
-.street .t a{
+
+.street .t a {
     display: block;
     position: relative;
     height: 160px;
@@ -611,29 +636,29 @@
     border-left: solid 1px #e3e3e3;
 }
 
-.street .t a .word{
+.street .t a .word {
     position: absolute;
     top: 52px;
     left: 15px;
 }
 
-.street .t a .word p:first-child{
+.street .t a .word p:first-child {
     font-size: 16px;
     font-weight: bold;
     line-height: 48px;
 
 }
 
-.street .t a .word p:nth-child(2){
+.street .t a .word p:nth-child(2) {
     font-size: 12px;
 }
 
-.street .t a .word p:last-child{
+.street .t a .word p:last-child {
     font-size: 12px;
-    color: red;
+    color: #c81623;
 }
 
-.street .t a img{
+.street .t a img {
     position: absolute;
     top: 30px;
     right: 0;
@@ -647,3 +672,275 @@
 }
 
 /* funny end */
+
+/*floor start*/
+
+.electric-appliance {
+    height: 510px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.electric-appliance .dt {
+    height: 30px;
+    border-bottom: solid 2px #c81623;
+}
+
+.electric-appliance .dt h3 {
+    float: left;
+    font-size: 18px;
+    line-height: 30px;
+    color: #c81623;
+}
+
+.electric-appliance .dt ul {
+    float: right;
+    line-height: 30px;
+}
+
+.electric-appliance .dt ul li {
+    float: left;
+    font-size: 12px;
+}
+
+.electric-appliance .dt ul li a {
+    float: left;
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.electric-appliance .dd .dd1 {
+    float: left;
+    width: 210px;
+    height: 360px;
+    background: #f9f9f9;
+    border-left: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.electric-appliance .dd .dd1 ul {
+    height: 100px;
+}
+
+.electric-appliance .dd .dd1 ul {
+    height: 100px;
+}
+
+.electric-appliance .dd .dd1 ul li {
+    float: left;
+    height: 33px;
+    width: 85px;
+    margin-left: 13px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.electric-appliance .dd .dd1 ul li a {
+    float: left;
+    height: 100%;
+    width: 100%;
+    line-height: 33px;
+    text-align: center;
+}
+
+.electric-appliance .dd .dd1 .pic a {
+    position: relative;
+    display: block;
+    height: 260px;
+    width: 210px;
+}
+
+.electric-appliance .dd .dd1 .word {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    color: #c81623;
+    text-align: center;
+}
+
+.electric-appliance .dd .dd1 .word p:first-child {
+    font-size: 18px;
+}
+
+.electric-appliance .dd .dd1 .word p:last-child {
+    font-size: 12px;
+}
+
+
+.electric-appliance .dd .dd1 .pic a img {
+    position: absolute;
+    left: 25px;
+    bottom: 35px;
+}
+
+.electric-appliance .dd .dd2 {
+    float: left;
+    width: 330px;
+    height: 360px;
+    background: #aed6d8;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.electric-appliance .dd .dd2 a {
+    position: relative;
+    display: block;
+    width: 330px;
+    height: 360px;
+}
+
+
+.electric-appliance .dd .dd2 a .word {
+    position: absolute;
+    color: #066c7d;
+    top: 37px;
+    left: 30px;
+}
+
+.electric-appliance .dd .dd2 a .word .p1 {
+    font-size: 16px;
+}
+
+.electric-appliance .dd .dd2 a .word .p2 {
+    font-size: 12px;
+}
+
+.electric-appliance .dd .dd2 a img {
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+}
+
+.electric-appliance .dd .dd3 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.electric-appliance .dd .dd3 .a1{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.electric-appliance .dd .dd3 .a2{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+}
+
+.electric-appliance .dd .dd3 a .word{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.electric-appliance .dd .dd3 a .word .p1{
+    font-size: 16px;
+}
+
+.electric-appliance .dd .dd3 a .word .p2{
+    font-size: 14px;
+    color: #c81623;
+}
+
+
+.electric-appliance .dd .dd3 a img{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.electric-appliance .dd .dd4 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.electric-appliance .dd .dd4 a {
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 360px;
+}
+
+.electric-appliance .dd .dd4 a .word{
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    left: 30px;
+}
+
+.electric-appliance .dd .dd4 a .word .p1{
+   font-size: 18px;
+}
+
+.electric-appliance .dd .dd4 a .word .p2{
+    font-size: 16px;
+    color: #999999;
+}
+
+
+.electric-appliance .dd .dd4 a img{
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+}
+
+
+.electric-appliance .dd .dd5 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.electric-appliance .dd .dd5 .a1{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.electric-appliance .dd .dd5 .a2{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+}
+
+.electric-appliance .dd .dd5 a .word{
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 20px;
+}
+
+.electric-appliance .dd .dd5 a .word .p1{
+    font-size: 16px;
+}
+
+.electric-appliance .dd .dd5 a .word .p2{
+    font-size: 14px;
+    color: #c81623;
+}
+
+
+.electric-appliance .dd .dd5 a img{
+    position: absolute;
+    z-index: 0;
+    bottom: 1px;
+    right: 1px;
+}
+
+.electric-appliance .df {
+    margin-top: 20px;
+}
+/*floor end*/

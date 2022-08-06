@@ -4,12 +4,11 @@
 }
 
 @font-face {
-    font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?tomleg');
-    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?tomleg') format('truetype'),
-    url('../fonts/icomoon.woff?tomleg') format('woff'),
-    url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.eot?tomleg");
+    src: url("../fonts/icomoon.eot?tomleg#iefix") format("embedded-opentype"),
+        url("../fonts/icomoon.ttf?tomleg") format("truetype"), url("../fonts/icomoon.woff?tomleg") format("woff"),
+        url("../fonts/icomoon.svg?tomleg#icomoon") format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -43,7 +42,7 @@
     margin: 0 15px;
 }
 
-.shortcut-right ul li:nth-child(n+5) a::after {
+.shortcut-right ul li:nth-child(n + 5) a::after {
     content: "\e91e";
     font-family: "icomoon";
 }
@@ -106,7 +105,6 @@
     padding: 0 12px;
 }
 
-
 .header .shopcar {
     right: 65px;
     width: 140px;
@@ -120,7 +118,6 @@
 
 .header .shopcar a {
     display: block;
-
 }
 
 .header .shopcar span:first-of-type {
@@ -154,8 +151,8 @@
 .nav {
     height: 71px;
     border-bottom: solid 2px #b01919;
-
 }
+
 
 .nav .dropdown .dt {
     margin-top: 24px;
@@ -173,7 +170,6 @@
     height: 100%;
     color: white;
 }
-
 
 .nav .dropdown .dd {
     margin-top: 2px;
@@ -212,7 +208,6 @@
 }
 
 .nav .navitems {
-
     margin-top: 24px;
     height: 45px;
     line-height: 45px;
@@ -235,7 +230,6 @@
     margin-top: 40px;
     background-color: #f4f4f4;
 }
-
 
 .mod-service {
     margin: 0 40px;
@@ -301,10 +295,10 @@
     width: 200px;
 }
 
-.mod-help dl dt{
+.mod-help dl dt {
     margin-bottom: 5px;
 }
-.mod-help dl dd{
+.mod-help dl dd {
     line-height: 20px;
 }
 .mod-help dl:last-child {
@@ -312,15 +306,14 @@
     text-align: center;
 }
 
-.mod-help dl:last-child dd:nth-child(2){
+.mod-help dl:last-child dd:nth-child(2) {
     height: 96px;
     width: 96px;
     background: url("../images/紫陌qrcode.png") no-repeat;
     background-size: 100%;
 }
 
-
-.mod-copyright{
+.mod-copyright {
     margin-left: 115px;
     text-align: center;
 }
@@ -330,19 +323,19 @@
     margin-bottom: 17px;
 }
 
-.mod-copyright .about li{
+.mod-copyright .about li {
     float: left;
     height: 13px;
     line-height: 13px;
 }
 
-.mod-copyright .about li::after{
+.mod-copyright .about li::after {
     content: "|";
     color: #cecccc;
     margin: 0 15px;
 }
 
-.mod-copyright .about li:last-child::after{
+.mod-copyright .about li:last-child::after {
     content: "";
 }
 
