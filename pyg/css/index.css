@@ -943,4 +943,551 @@
 .electric-appliance .df {
     margin-top: 20px;
 }
+
+.mobile {
+    height: 510px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.mobile .dt {
+    height: 30px;
+    border-bottom: solid 2px #c81623;
+}
+
+.mobile .dt h3 {
+    float: left;
+    font-size: 18px;
+    line-height: 30px;
+    color: #c81623;
+}
+
+.mobile .dt ul {
+    float: right;
+    line-height: 30px;
+}
+
+.mobile .dt ul li {
+    float: left;
+    font-size: 12px;
+}
+
+.mobile .dt ul li a {
+    float: left;
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.mobile .dd .dd1 {
+    float: left;
+    width: 210px;
+    height: 360px;
+    background: #f9f9f9;
+    border-left: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.mobile .dd .dd1 ul {
+    height: 100px;
+}
+
+.mobile .dd .dd1 ul {
+    height: 100px;
+}
+
+.mobile .dd .dd1 ul li {
+    float: left;
+    height: 33px;
+    width: 85px;
+    margin-left: 13px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.mobile .dd .dd1 ul li a {
+    float: left;
+    height: 100%;
+    width: 100%;
+    line-height: 33px;
+    text-align: center;
+}
+
+.mobile .dd .dd1 .pic a {
+    position: relative;
+    display: block;
+    height: 260px;
+    width: 210px;
+}
+
+.mobile .dd .dd1 .word {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #c81623;
+    text-align: center;
+}
+
+.mobile .dd .dd1 .word p:first-child {
+    font-size: 18px;
+}
+
+.mobile .dd .dd1 .word p:last-child {
+    font-size: 12px;
+}
+
+
+.mobile .dd .dd1 .pic a img {
+    position: absolute;
+    left: 25px;
+    bottom: 35px;
+}
+
+.mobile .dd .dd2 {
+    float: left;
+    width: 330px;
+    height: 360px;
+    background: #c6e8b6;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.mobile .dd .dd2 a {
+    position: relative;
+    display: block;
+    width: 330px;
+    height: 360px;
+}
+
+
+.mobile .dd .dd2 a .word {
+    position: absolute;
+    color: #4c852a;
+    top: 37px;
+    left: 30px;
+}
+
+.mobile .dd .dd2 a .word .p1 {
+    font-size: 16px;
+}
+
+.mobile .dd .dd2 a .word .p2 {
+    font-size: 12px;
+}
+
+.mobile .dd .dd2 a img {
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+}
+
+.mobile .dd .dd3 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.mobile .dd .dd3 .a1{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.mobile .dd .dd3 .a2{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+}
+
+.mobile .dd .dd3 a .word{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.mobile .dd .dd3 a .word .p1{
+    font-size: 16px;
+}
+
+.mobile .dd .dd3 a .word .p2{
+    font-size: 14px;
+    color: #c81623;
+}
+
+
+.mobile .dd .dd3 a img{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.mobile .dd .dd4 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.mobile .dd .dd4 a {
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 360px;
+}
+
+.mobile .dd .dd4 a .word{
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    left: 30px;
+}
+
+.mobile .dd .dd4 a .word .p1{
+    font-size: 18px;
+}
+
+.mobile .dd .dd4 a .word .p2{
+    font-size: 16px;
+    color: #999999;
+}
+
+
+.mobile .dd .dd4 a img{
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+}
+
+
+.mobile .dd .dd5 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.mobile .dd .dd5 .a1{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.mobile .dd .dd5 .a2{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+}
+
+.mobile .dd .dd5 a .word{
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 20px;
+}
+
+.mobile .dd .dd5 a .word .p1{
+    font-size: 16px;
+}
+
+.mobile .dd .dd5 a .word .p2{
+    font-size: 14px;
+    color: #c81623;
+}
+
+
+.mobile .dd .dd5 a img{
+    position: absolute;
+    z-index: 0;
+    bottom: 1px;
+    right: 1px;
+}
+
+.mobile .df {
+    margin-top: 20px;
+}
+
+.computer {
+    height: 510px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.computer .dt {
+    height: 30px;
+    border-bottom: solid 2px #c81623;
+}
+
+.computer .dt h3 {
+    float: left;
+    font-size: 18px;
+    line-height: 30px;
+    color: #c81623;
+}
+
+.computer .dt ul {
+    float: right;
+    line-height: 30px;
+}
+
+.computer .dt ul li {
+    float: left;
+    font-size: 12px;
+}
+
+.computer .dt ul li a {
+    float: left;
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.computer .dd .dd1 {
+    float: left;
+    width: 210px;
+    height: 360px;
+    background: #f9f9f9;
+    border-left: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.computer .dd .dd1 ul {
+    height: 100px;
+}
+
+.computer .dd .dd1 ul {
+    height: 100px;
+}
+
+.computer .dd .dd1 ul li {
+    float: left;
+    height: 33px;
+    width: 85px;
+    margin-left: 13px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.computer .dd .dd1 ul li a {
+    float: left;
+    height: 100%;
+    width: 100%;
+    line-height: 33px;
+    text-align: center;
+}
+
+.computer .dd .dd1 .pic a {
+    position: relative;
+    display: block;
+    height: 260px;
+    width: 210px;
+}
+
+.computer .dd .dd1 .word {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #c81623;
+    text-align: center;
+}
+
+.computer .dd .dd1 .word p:first-child {
+    font-size: 18px;
+}
+
+.computer .dd .dd1 .word p:last-child {
+    font-size: 12px;
+}
+
+
+.computer .dd .dd1 .pic a img {
+    position: absolute;
+    left: 25px;
+    bottom: 35px;
+}
+
+.computer .dd .dd2 {
+    float: left;
+    width: 330px;
+    height: 360px;
+    background: #d7aac9;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.computer .dd .dd2 a {
+    position: relative;
+    display: block;
+    width: 330px;
+    height: 360px;
+}
+
+
+.computer .dd .dd2 a .word {
+    position: absolute;
+    color: #874d75;
+    top: 37px;
+    left: 30px;
+}
+
+.computer .dd .dd2 a .word .p1 {
+    font-size: 16px;
+}
+
+.computer .dd .dd2 a .word .p2 {
+    font-size: 12px;
+}
+
+.computer .dd .dd2 a img {
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+}
+
+.computer .dd .dd3 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.computer .dd .dd3 .a1{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.computer .dd .dd3 .a2{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+}
+
+.computer .dd .dd3 a .word{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.computer .dd .dd3 a .word .p1{
+    font-size: 16px;
+}
+
+.computer .dd .dd3 a .word .p2{
+    font-size: 14px;
+    color: #c81623;
+}
+
+
+.computer .dd .dd3 a img{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.computer .dd .dd4 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.computer .dd .dd4 a {
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 360px;
+}
+
+.computer .dd .dd4 a .word{
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    left: 30px;
+}
+
+.computer .dd .dd4 a .word .p1{
+    font-size: 18px;
+}
+
+.computer .dd .dd4 a .word .p2{
+    font-size: 16px;
+    color: #999999;
+}
+
+
+.computer .dd .dd4 a img{
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+}
+
+
+.computer .dd .dd5 {
+    float: left;
+    width: 220px;
+    height: 360px;
+    border-right: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.computer .dd .dd5 .a1{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.computer .dd .dd5 .a2{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 180px;
+}
+
+.computer .dd .dd5 a .word{
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 20px;
+}
+
+.computer .dd .dd5 a .word .p1{
+    font-size: 16px;
+}
+
+.computer .dd .dd5 a .word .p2{
+    font-size: 14px;
+    color: #c81623;
+}
+
+
+.computer .dd .dd5 a img{
+    position: absolute;
+    z-index: 0;
+    bottom: 1px;
+    right: 1px;
+}
+
+.computer .df {
+    margin-top: 20px;
+}
+
+.hothot{
+    height: 315px;
+    margin-top: 30px;
+}
+
+.hothot .dt h3{
+    font-size: 18px;
+}
 /*floor end*/
