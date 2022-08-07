@@ -4,9 +4,9 @@
     float: left;
     position: sticky;
     top: 0;
+    left: calc(50% - 670px);
     width: 67px;
-    margin-top: 250px;
-    margin-left: 30px;
+    margin-top: 180px;
     border-top: solid 1px #ededed;
 }
 
@@ -817,7 +817,7 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.electric-appliance .dd .dd3 .a1{
+.electric-appliance .dd .dd3 .a1 {
     position: relative;
     display: block;
     width: 220px;
@@ -825,30 +825,30 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.electric-appliance .dd .dd3 .a2{
+.electric-appliance .dd .dd3 .a2 {
     position: relative;
     display: block;
     width: 220px;
     height: 180px;
 }
 
-.electric-appliance .dd .dd3 a .word{
+.electric-appliance .dd .dd3 a .word {
     position: absolute;
     top: 25px;
     left: 20px;
 }
 
-.electric-appliance .dd .dd3 a .word .p1{
+.electric-appliance .dd .dd3 a .word .p1 {
     font-size: 16px;
 }
 
-.electric-appliance .dd .dd3 a .word .p2{
+.electric-appliance .dd .dd3 a .word .p2 {
     font-size: 14px;
     color: #c81623;
 }
 
 
-.electric-appliance .dd .dd3 a img{
+.electric-appliance .dd .dd3 a img {
     position: absolute;
     bottom: 1px;
     right: 1px;
@@ -869,24 +869,24 @@
     height: 360px;
 }
 
-.electric-appliance .dd .dd4 a .word{
+.electric-appliance .dd .dd4 a .word {
     position: absolute;
     text-align: center;
     top: 70px;
     left: 30px;
 }
 
-.electric-appliance .dd .dd4 a .word .p1{
-   font-size: 18px;
+.electric-appliance .dd .dd4 a .word .p1 {
+    font-size: 18px;
 }
 
-.electric-appliance .dd .dd4 a .word .p2{
+.electric-appliance .dd .dd4 a .word .p2 {
     font-size: 16px;
     color: #999999;
 }
 
 
-.electric-appliance .dd .dd4 a img{
+.electric-appliance .dd .dd4 a img {
     position: absolute;
     bottom: 55px;
     left: 20px;
@@ -901,7 +901,7 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.electric-appliance .dd .dd5 .a1{
+.electric-appliance .dd .dd5 .a1 {
     position: relative;
     display: block;
     width: 220px;
@@ -909,31 +909,31 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.electric-appliance .dd .dd5 .a2{
+.electric-appliance .dd .dd5 .a2 {
     position: relative;
     display: block;
     width: 220px;
     height: 180px;
 }
 
-.electric-appliance .dd .dd5 a .word{
+.electric-appliance .dd .dd5 a .word {
     position: absolute;
     z-index: 1;
     top: 25px;
     left: 20px;
 }
 
-.electric-appliance .dd .dd5 a .word .p1{
+.electric-appliance .dd .dd5 a .word .p1 {
     font-size: 16px;
 }
 
-.electric-appliance .dd .dd5 a .word .p2{
+.electric-appliance .dd .dd5 a .word .p2 {
     font-size: 14px;
     color: #c81623;
 }
 
 
-.electric-appliance .dd .dd5 a img{
+.electric-appliance .dd .dd5 a img {
     position: absolute;
     z-index: 0;
     bottom: 1px;
@@ -1086,7 +1086,7 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.mobile .dd .dd3 .a1{
+.mobile .dd .dd3 .a1 {
     position: relative;
     display: block;
     width: 220px;
@@ -1094,30 +1094,30 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.mobile .dd .dd3 .a2{
+.mobile .dd .dd3 .a2 {
     position: relative;
     display: block;
     width: 220px;
     height: 180px;
 }
 
-.mobile .dd .dd3 a .word{
+.mobile .dd .dd3 a .word {
     position: absolute;
     top: 25px;
     left: 20px;
 }
 
-.mobile .dd .dd3 a .word .p1{
+.mobile .dd .dd3 a .word .p1 {
     font-size: 16px;
 }
 
-.mobile .dd .dd3 a .word .p2{
+.mobile .dd .dd3 a .word .p2 {
     font-size: 14px;
     color: #c81623;
 }
 
 
-.mobile .dd .dd3 a img{
+.mobile .dd .dd3 a img {
     position: absolute;
     bottom: 1px;
     right: 1px;
@@ -1138,24 +1138,24 @@
     height: 360px;
 }
 
-.mobile .dd .dd4 a .word{
+.mobile .dd .dd4 a .word {
     position: absolute;
     text-align: center;
     top: 70px;
     left: 30px;
 }
 
-.mobile .dd .dd4 a .word .p1{
+.mobile .dd .dd4 a .word .p1 {
     font-size: 18px;
 }
 
-.mobile .dd .dd4 a .word .p2{
+.mobile .dd .dd4 a .word .p2 {
     font-size: 16px;
     color: #999999;
 }
 
 
-.mobile .dd .dd4 a img{
+.mobile .dd .dd4 a img {
     position: absolute;
     bottom: 55px;
     left: 20px;
@@ -1170,7 +1170,7 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.mobile .dd .dd5 .a1{
+.mobile .dd .dd5 .a1 {
     position: relative;
     display: block;
     width: 220px;
@@ -1178,31 +1178,31 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.mobile .dd .dd5 .a2{
+.mobile .dd .dd5 .a2 {
     position: relative;
     display: block;
     width: 220px;
     height: 180px;
 }
 
-.mobile .dd .dd5 a .word{
+.mobile .dd .dd5 a .word {
     position: absolute;
     z-index: 1;
     top: 25px;
     left: 20px;
 }
 
-.mobile .dd .dd5 a .word .p1{
+.mobile .dd .dd5 a .word .p1 {
     font-size: 16px;
 }
 
-.mobile .dd .dd5 a .word .p2{
+.mobile .dd .dd5 a .word .p2 {
     font-size: 14px;
     color: #c81623;
 }
 
 
-.mobile .dd .dd5 a img{
+.mobile .dd .dd5 a img {
     position: absolute;
     z-index: 0;
     bottom: 1px;
@@ -1355,7 +1355,7 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.computer .dd .dd3 .a1{
+.computer .dd .dd3 .a1 {
     position: relative;
     display: block;
     width: 220px;
@@ -1363,30 +1363,30 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.computer .dd .dd3 .a2{
+.computer .dd .dd3 .a2 {
     position: relative;
     display: block;
     width: 220px;
     height: 180px;
 }
 
-.computer .dd .dd3 a .word{
+.computer .dd .dd3 a .word {
     position: absolute;
     top: 25px;
     left: 20px;
 }
 
-.computer .dd .dd3 a .word .p1{
+.computer .dd .dd3 a .word .p1 {
     font-size: 16px;
 }
 
-.computer .dd .dd3 a .word .p2{
+.computer .dd .dd3 a .word .p2 {
     font-size: 14px;
     color: #c81623;
 }
 
 
-.computer .dd .dd3 a img{
+.computer .dd .dd3 a img {
     position: absolute;
     bottom: 1px;
     right: 1px;
@@ -1407,24 +1407,24 @@
     height: 360px;
 }
 
-.computer .dd .dd4 a .word{
+.computer .dd .dd4 a .word {
     position: absolute;
     text-align: center;
     top: 70px;
     left: 30px;
 }
 
-.computer .dd .dd4 a .word .p1{
+.computer .dd .dd4 a .word .p1 {
     font-size: 18px;
 }
 
-.computer .dd .dd4 a .word .p2{
+.computer .dd .dd4 a .word .p2 {
     font-size: 16px;
     color: #999999;
 }
 
 
-.computer .dd .dd4 a img{
+.computer .dd .dd4 a img {
     position: absolute;
     bottom: 55px;
     left: 20px;
@@ -1439,7 +1439,7 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.computer .dd .dd5 .a1{
+.computer .dd .dd5 .a1 {
     position: relative;
     display: block;
     width: 220px;
@@ -1447,31 +1447,31 @@
     border-bottom: solid 1px #e3e3e3;
 }
 
-.computer .dd .dd5 .a2{
+.computer .dd .dd5 .a2 {
     position: relative;
     display: block;
     width: 220px;
     height: 180px;
 }
 
-.computer .dd .dd5 a .word{
+.computer .dd .dd5 a .word {
     position: absolute;
     z-index: 1;
     top: 25px;
     left: 20px;
 }
 
-.computer .dd .dd5 a .word .p1{
+.computer .dd .dd5 a .word .p1 {
     font-size: 16px;
 }
 
-.computer .dd .dd5 a .word .p2{
+.computer .dd .dd5 a .word .p2 {
     font-size: 14px;
     color: #c81623;
 }
 
 
-.computer .dd .dd5 a img{
+.computer .dd .dd5 a img {
     position: absolute;
     z-index: 0;
     bottom: 1px;
@@ -1482,12 +1482,13 @@
     margin-top: 20px;
 }
 
-.hothot{
+.hothot {
     height: 315px;
     margin-top: 30px;
 }
 
-.hothot .dt h3{
+.hothot .dt h3 {
     font-size: 18px;
 }
+
 /*floor end*/
