@@ -1,0 +1,18 @@
+.kill{
+    position: absolute;
+    left: 200px;
+    top: 45px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.kill::before{
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 32px;
+    margin-right: 15px;
+    background: #b1191a;
+    vertical-align: middle;
+}
+

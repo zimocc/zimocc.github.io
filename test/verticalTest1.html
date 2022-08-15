@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .test {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .left, .right {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+
+        .wrap1, .wrap2 {
+            display: inline-block;
+        }
+
+        .test2 .wrap2 {
+            vertical-align: middle;
+        }
+
+        .wrap1 {
+            margin-right: 150px;
+        }
+
+        .test2 .wrap1 .left {
+            vertical-align: top;
+        }
+
+    </style>
+</head>
+<body>
+<div class="test">
+    <div class="left">
+    </div>
+    <div class="right">
+    </div>
+</div>
+<div class="test2">
+    <div class="wrap1">
+        <div class="left">
+        </div>
+        <div class="right">
+            <span class="right-span">right-span</span>
+        </div>
+    </div>
+    <div class="wrap2">
+        <div class="left">
+        </div>
+        <div class="right">
+            <span class="right-span">right-span</span>
+        </div>
+    </div>
+</div>
+<div class="test">
+    <div class="left">
+        <span>left-span</span>
+    </div>
+    <div class="right">
+        <span class="">right-span</span>
+    </div>
+</div>
+
+</body>
+</html>
