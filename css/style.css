@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
 html,body{
     height: 100%;
 }
+
 body{
-    background: url("https://pic.3gbizhi.com/2021/1227/20211227092309212.jpg") no-repeat ;
+    background: url("https://www.obzhi.com/wp-content/uploads/2021/07/cikeshaonv.jpeg") no-repeat ;
     background-size: 100%;
     cursor: url(https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/cursor.ico),auto;
 }
-
 
 .pyg {
     margin: 0 auto;
