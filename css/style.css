@@ -1,28 +1,239 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html,body{
+html,
+body {
+    width: 100%;
     height: 100%;
 }
 
-body{
-    background: url("https://www.obzhi.com/wp-content/uploads/2021/07/cikeshaonv.jpeg") no-repeat ;
+body {
+    background: url(https://www.obzhi.com/wp-content/uploads/2021/07/cikeshaonv.jpeg) no-repeat;
     background-size: 100%;
-    cursor: url(https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/cursor.ico),auto;
+    cursor: url(https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/cursor.ico), auto;
+    perspective: 500px;
 }
 
 .pyg {
-    margin: 0 auto;
-    text-align: center;
+    position: absolute;
+    /* margin: 50px auto; */
+    top: 50px;
+    left: 50%;
+    transform: translate(-50px, 0);
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
 
-.pyg a{
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 112px;
+    }
+}
+
+.pyg a {
+    display: block;
+    font-size: 16px;
     text-decoration: none;
+    width: 0;
     color: white;
+    text-shadow: 0 0 12px red;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: type 2s steps(7) 2s forwards;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-.pyg a:hover{
+.pyg a:hover {
     color: red;
+}
+
+.pulse {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 45%;
+    top: 61px;
+}
+
+.pulse .center {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    background: red;
+    border-radius: 50%;
+}
+
+.pulse div[class^="pulse"] {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0 0 12px red;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: pulse 1.5s linear infinite;
+}
+
+.pulse div.pulse2 {
+    animation-delay: 0.4s;
+}
+
+.pulse div.pulse3 {
+    animation-delay: 0.8s;
+}
+
+.pulse div[class^="pulse"]:hover {
+    width: 20px;
+    height: 20px;
+}
+
+@keyframes pulse {
+    0% {
+    }
+
+    75% {
+        height: 40px;
+        width: 40px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 70px;
+        height: 70px;
+        opacity: 0;
+    }
+}
+
+.bear {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    height: 100px;
+    background: url(../images/bear.png) no-repeat;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: run 0.5s steps(7) infinite forwards, move 2s linear forwards, move1 2s linear 2s forwards;
+}
+.bear:hover {
+    animation-play-state: paused;
+}
+
+@keyframes run {
+    100% {
+        background-position: -1400px 0;
+    }
+}
+
+@keyframes move {
+    100% {
+        left: 50%;
+        transform: translateX(-50%) ;
+    }
+}
+
+@keyframes move1 {
+    100% {
+        bottom: 50%;
+    }
+}
+
+.muma {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+    perspective: 500px;
+    transform-style: preserve-3d;
+    animation: muma 1.5s linear infinite;
+}
+
+.threed1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: pink;
+}
+
+.threed2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: purple;
+    transform: rotateX(90deg);
+}
+
+@keyframes muma {
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+.circle {
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    perspective: 500px;
+    font-size: 30px;
+    /* transform-style: preserve-3d; */
+}
+
+.front {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: pink;
+    text-align: center;
+    line-height: 200px;
+    animation: turn1 4s linear infinite ;
+}
+
+.back {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: purple;
+    text-align: center;
+    line-height: 200px;
+    animation: turn 4s linear infinite ;
+}
+
+@keyframes turn {
+    0% {
+        z-index: 1;
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+    50% {
+        z-index: 2;
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+    100% {
+        z-index: 1;
+        transform: rotate3d(0, 1, 0, 540deg);
+    }
+}
+
+@keyframes turn1 {
+    0% {
+        z-index: 2;
+        transform: rotate3d(0, 1, 0, 0);
+    }
+    50% {
+        z-index: 1;
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+    100% {
+        z-index: 2;
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
 }
