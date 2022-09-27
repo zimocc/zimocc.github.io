@@ -37,15 +37,75 @@
 }
 
 .focus {
+    position: relative;
+    overflow: hidden;
     float: left;
     height: 100%;
-    width: 720px;
-    background: url("../upload/focus1.png") no-repeat;
+    width: 721px;
+    /*background: url("../upload/focus1.png") no-repeat;*/
+}
+
+.focus .images {
+    position: absolute;
+    height: 100%;
+    width: 600%;
+
+}
+
+.focus .images li {
+    float: left;
+}
+
+.focus .circle{
+    display: flex;
+    position: absolute;
+    left: 5%;
+    bottom: 20px;
+}
+
+.focus .circle li{
+    cursor: pointer;
+    flex:1;
+    height: 10px;
+    width: 10px;
+    margin-left: 8px;
+    border-radius:50%;
+    background: rgba(255,255,255,0.5);
+}
+.focus .circle .current {
+    background: white;
+}
+
+.focus div[class^="arrow"]{
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    transform: translateY(-50%);
+    z-index: 2;
+    height: 50px;
+    width: 45px;
+    background: rgba(255, 255, 255, 0.4);
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+}
+
+.focus div.arrowL{
+    left: 0;
+    top: 50%;
+    border-radius: 0 25px 25px 0;
+}
+
+.focus div.arrowR{
+    right: 0;
+    top: 50%;
+    border-radius: 25px 0 0 25px;
 }
 
 .newsflash {
     float: left;
-    width: 250px;
+    width: 249px;
     height: 100%;
     margin-left: 10px;
 }

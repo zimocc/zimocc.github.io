@@ -109,6 +109,39 @@ body {
     }
 }
 
+.bear {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    height: 100px;
+    background: url(../images/bear.png) no-repeat;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: run 0.5s steps(7) infinite forwards, move 2s linear forwards, move1 2s linear 2s forwards;
+}
+.bear:hover {
+    animation-play-state: paused;
+}
+
+@keyframes run {
+    100% {
+        background-position: -1400px 0;
+    }
+}
+
+@keyframes move {
+    100% {
+        left: 50%;
+        transform: translateX(-50%) ;
+    }
+}
+
+@keyframes move1 {
+    100% {
+        bottom: 50%;
+    }
+}
+
 .muma {
     position: absolute;
     height: 50px;
