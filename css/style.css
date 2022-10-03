@@ -24,6 +24,9 @@ body {
     transform: translate(-50px, 0);
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
+.tcs{
+    top: 80px;
+}
 
 @keyframes type {
     0% {
