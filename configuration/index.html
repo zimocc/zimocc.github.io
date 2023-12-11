@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("1.jpg");
+        }
+
+        .container {
+            position: absolute;
+            height: 120px;
+            bottom: 10px;
+            left: 50%;
+            transform: translate(-50%, 0)
+        }
+
+        .tab-container {
+            display: flex;
+            justify-items: center;
+            background-color: #3498db;
+            border-radius: 10px;
+            position: absolute;
+            left: 50%;
+            bottom: 40px;
+            transform: translate(-50%, 0) scaleX(0);
+            transition: all 0.5s ease;
+            transform-origin: center;
+            opacity: 0;
+        }
+
+
+        .tab {
+            user-select: none;
+            padding: 10px 20px;
+            height: 16px;
+            max-width: 9em;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            font: 12px Arial, sans-serif;
+            cursor: pointer;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+
+        .tab:hover {
+            background-color: #2980b9;
+        }
+
+        .circle-btn {
+            user-select: none;
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+            bottom: 60px;
+            opacity: 0.5;
+        }
+
+        .circle-btn:hover {
+            background-color: #2980b9;
+            opacity: 1;
+        }
+
+        .selected {
+            background-color: #2980b9;
+        }
+
+        .hidden {
+            transform: translate(-50%, 0) scaleX(1);
+            opacity: 1;
+        }
+
+        .tooltip {
+            position: absolute;
+            background-color: #2980b9;
+            color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+            display: none;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="circle-btn">切换</div>
+    <div class="tab-container">
+        <div class="tab selected ">低温氨系统组态面板</div>
+        <div class="tab ">成都低温氨系统组态面板</div>
+        <div class="tab ">看板3</div>
+        <div class="tab ">看板4</div>
+    </div>
+</div>
+<script>
+    let isDragging = false;
+    let offsetX, offsetY;
+    let startX = 0,
+        startY = 0;
+
+    let container = document.querySelector(".container");
+    let btn = document.querySelector(".circle-btn");
+    let tab = document.querySelector(".tab-container");
+
+    function hiddenTab(e) {
+        if (e.clientX !== startX || e.clientY !== startY) {
+            startX = 0; //位置发生变化为拖拽
+            startY = 0;
+            return;
+        }
+        tab.classList.toggle("hidden");
+        btn.classList.toggle("hidden");
+    }
+
+    btn.addEventListener("mousedown", function (e) {
+        isDragging = true;
+        offsetX = e.clientX - container.getBoundingClientRect().left;
+        offsetY = e.clientY - container.getBoundingClientRect().top;
+        startX = e.clientX;
+        startY = e.clientY;
+    });
+
+    document.addEventListener("mousemove", function (e) {
+        if (isDragging) {
+            container.style.left = e.clientX - offsetX + "px";
+            container.style.top = e.clientY - offsetY + "px";
+        }
+    });
+
+    document.addEventListener("mouseup", function () {
+        isDragging = false;
+    });
+
+    btn.addEventListener("click", hiddenTab);
+
+    let tabs = document.querySelectorAll(".tab");
+    for (let i = 0; i < tabs.length; i++) {
+        const item = tabs[i];
+        item.addEventListener("click", function () {
+            tabs.forEach(function (item) {
+                item.classList.remove("selected");
+            });
+            this.classList.add("selected");
+            document.body.style.backgroundImage = `url(${i + 1}.jpg)`;
+        });
+    }
+</script>
+</body>
+
+</html>
